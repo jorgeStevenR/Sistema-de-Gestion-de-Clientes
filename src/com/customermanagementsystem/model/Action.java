@@ -8,7 +8,7 @@ public class Action {
 
     public Action(String description) {
         this.description = description;
-        this.timestamp = timestamp;
+        this.timestamp = Instant.now();
     }
 
     public String getDescription() {

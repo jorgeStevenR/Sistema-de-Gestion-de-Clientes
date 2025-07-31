@@ -1,5 +1,5 @@
 package com.customermanagementsystem.model;
 
-public class UserRol {
-    
+public enum  UserRol {
+    ADMIN, STANDARD;
 }
